@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<Html>
+
+<head
+       <title> Tags Complexas </title>
+</head>
+
+<body>
+<h1><i> Dicas para entender a diciplina mais rapido</i>.</h1>
+
+
+<p> Lista Ordenada </p>
+<ol>
+
+<li> Autocontrole </li>
+<li> Focado </li>
+<li> Dedicado </li>
+</ol>
+
+<p> Lista não Ordenada</p>
+<ul>
+
+<li> Tecnologia </li>
+<li> Materias de Estudo </li>
+</ul>
+
+
+
+
+</Html>
