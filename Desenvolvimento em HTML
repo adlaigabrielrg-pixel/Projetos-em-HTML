@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<Html>
+    <head>
+        <title> Minha primeira pàgina HTML</title>
+    </head>
+
+    <body>
+
+        <h1>Introdução ao Desenvolvimento Web</h1>
+
+        <p><i> Principais Conceitos HTML </i>.</p>
+        <p> O HTML ( Linguagem de Marcação de Hipertexto)è uma linguagem de marcação utilizada para criar paginas web</p>
+        <p><i>Principais Elementos</i>:</p>
+
+<ol>
+    <li> Front-end </li>
+    <li> Back-end </li>
+    <li> Banco de Dados</li>
+</ol>
+
+</body>
+
+</Html>
+
+
