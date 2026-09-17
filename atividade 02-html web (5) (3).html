@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<Html>
+
+<head
+       <title> Tags Complexas  </title>
+</head>
+
+<body>
+<h1><i> Listas e Tabelas em Html </i>.</h1>
+
+
+<p> Lista não Ordenada</p>
+<ul>
+
+<li> Material didatico </li>
+<li> Computador </li>
+<li> Cadernos  </li>
+<li> Lapis </li>
+<li>  internet  </li>
+</ul>
+
+
+
+<p> Lista Ordenada </p>
+<ol>
+
+<li> Computador </li>
+<li> Internet </li>
+<li> Material didatico </li>
+</ol>
+
+<p><strong>lista das coisas</strong></p>
+ <dl>
+     <dt>  Material didatico </dt>
+     <dd> O material didatico e um dos principais recursos que os alunos para aumenta os seus conhecimento     </dd>
+     
+     <dt> Computador </dt>
+     <dd> Sendo considerado um dos meios que a grande maioria utilizar para varios situações      </dd>
+     
+     <dt> internet  </dt>
+     <dd> E um sistemas global de redes de computadores interligadas que utilizam um conjunto proprio de protocolos    </dd>
+     
+ </dl>
+
+<section>
+  <h2>Tabela de Produtos</h2>
+  
+  <table width="100%" border="1">
+    <thead>
+
+      <tr>
+        <th>Código</th>
+        <th>Produto</th>
+        <th>Categoria</th>
+        <th>Preço</th>
+      </tr>
+    
+    </thead>
+<tbody>
+      <tr>
+        <td>001</td>
+        <td>Notebook Pro</td>
+        <td>Eletrônicos</td>
+        <td>R$ 4.500,00</td>
+      </tr>
+
+      <tr>
+        <td>002</td>
+        <td>Cadeira Ergonômica</td>
+        <td>Móveis</td>
+        <td>R$ 1.200,00</td>
+      </tr>
+
+      <tr>
+        <td>003</td>
+        <td>Cafeteira Elétrica</td>
+        <td>Eletrodomésticos</td>
+        <td>R$ 350,00</td>
+      </tr>
+
+      <tr>
+        <td>004</td>
+        <td>Mouse Vertical</td>
+        <td>Periféricos</td>
+        <td>R$ 180,00</td>
+      </tr>
+
+      <tr>
+        <td>005</td>
+        <td>Luminária Inteligente</td>
+        <td>Iluminação</td>
+        <td>R$ 220,00</td>
+
+      </tr>
+
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4">Total de produtos cadastrados: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<h3><i> Midia no HTML / video</i>.</h3>
+
+
+<iframe width="560" 
+height="315"
+src="https://www.youtube.com/embed/uWWMtgPwtOg?si=qff_vUxoYvYo3I43" 
+title="YouTube video player" 
+frameborder="0"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+ allowfullscreen>
+</iframe>
+ 
+</video>
+
+
+
+    <!-- Nova Seção: Solicitação de Produto -->
+    <section id="solicitacao-produto">
+        <h2>Solicitação de Produto</h2>
+        <p>Preencha o formulário abaixo para registrar seu interesse em um de nossos produtos.</p>
+
+        <form action="#" method="post">
+            <!-- Campo: Nome do cliente -->
+            <div>
+                <label for="nome">Nome do cliente:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+            </div>
+
+            <!-- Campo: E-mail -->
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+            </div>
+
+            <!-- Campo: Produto desejado (Lista de seleção) -->
+            <div>
+                <label for="produto">Produto desejado:</label>
+                <select id="produto" name="produto" required>
+                    <option value="" disabled selected>Selecione um produto...</option>
+                    <option value="produto1">Produto 1 (Substitua pelo nome real)</option>
+                    <option value="produto2">Produto 2 (Substitua pelo nome real)</option>
+                    <option value="produto3">Produto 3 (Substitua pelo nome real)</option>
+                </select>
+            </div>
+
+            <!-- Campo: Quantidade -->
+            <div>
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" max="99" required value="1">
+            </div>
+
+            <!-- Campo: Observações -->
+            <div>
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes" rows="4" placeholder="Digite aqui suas dúvidas ou exigências específicas..."></textarea>
+            </div>
+
+            <!-- Botões -->
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </section>
+
+<link rel="stylesheet" href="estilo.css">
+
+
+    </Html>
