@@ -1,5 +1,5 @@
 <?php
-// Configuração e Conexão com o Banco de Dados embutida (cenário fictício)
+// Configuração e Conexão com o Banco de Dados embutida
 $host = 'localhost';
 $dbname = 'sistema_bancario';
 $username = 'root';
